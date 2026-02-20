@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arun Data Entry Centre</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(to right, #0077cc, #00bfff);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #005fa3;
+      padding: 12px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 650px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .call {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      background: #0077cc;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Arun Data Entry Centre</h1>
+  <p>Fast • Accurate • Professional Data Entry Services</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <div class="card">
+    <p>We provide trusted and professional data entry services.</p>
+  </div>
+</section>
+
+<section id="about" style="background:#e8f4ff;">
+  <h2>About Us</h2>
+  <div class="card">
+    <p>Dedicated to delivering accurate and timely digital services.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="card">
+    <p>✔ Data Entry Work</p>
+    <p>✔ Typing & Documentation</p>
+    <p>✔ Online Support</p>
+  </div>
+</section>
+
+<section id="contact" style="background:#f2f2f2;">
+  <h2>Contact Us</h2>
+  <div class="card">
+    <p><b>Arun Data Entry Centre</b></p>
+    <p>📞 Mobile: <a href="tel:8053309511">8053309511</a></p>
+    <p>📧 Email: <a href="mailto:arunyadavsigra1@gmail.com">
+      arunyadavsigra1@gmail.com</a></p>
+    <p>📍 Location: Mahendergarh, Haryana</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Arun Data Entry Centre | All Rights Reserved</p>
+</footer>
+
+<!-- Updated Call Button -->
+<a class="call" href="tel:8053309511">📞 Call</a>
+
+<!-- Updated WhatsApp Button -->
+<a class="whatsapp" href="https://wa.me/918053309511" target="_blank">
+  💬 WhatsApp
+</a>
+
+</body>
+</html>
